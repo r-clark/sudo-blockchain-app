@@ -1,0 +1,20 @@
+{%extends "layout.html"%} {%block content%}
+
+<div class="keyRequest">
+  <h1>Blockchain Key Request</h1>
+  <p>Please enter your School ID number below and select the block you would like to retrive:</p>
+  <form action="/my-Blockchain-handling-form-page" method="get">
+    <div>
+      <label for="ID">ID:</label>
+      <input type="text" id="ID" ID="user_id">
+    </div>
+    <div>
+      <label for="Location">Location:</label>
+      <input type="text" id="Location" name="location_of_block">
+    </div>
+    <div class="button">
+      <button type="submit">Select Block</button>
+    </div>
+
+</div>
+{%endblock%}

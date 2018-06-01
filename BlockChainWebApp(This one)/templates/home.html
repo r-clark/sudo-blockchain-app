@@ -1,0 +1,31 @@
+{%extends "layout.html"%} {%block content%}
+
+<div class="home">
+
+  <h1>Request Diploma/Transcripts Homepage</h1>
+  <p>Welcome to National University's Blockchain for storing immutable data such as Student's Diplomas and Transcripts
+    <div class="list">
+
+
+      <div>
+        <a href="{{ url_for('registration')}}">Registration</a>
+      </div>
+      <div>
+        <a href="{{ url_for('adminTransRequest')}}">Admin Panel</a>
+      </div>
+      <div>
+        <a href="{{ url_for('keyRequest')}}">Key Request</a>
+
+      </div>
+      <div>
+
+        <a href="{{ url_for('blockRequest')}}">Block Request</a>
+      </div>
+      <div>
+        <a href="{{ url_for('networkRequest')}}">Network Transmission Request</a>
+
+      </div>
+    </div>
+  </p>
+</div>
+{%endblock%}

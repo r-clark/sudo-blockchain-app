@@ -1,0 +1,21 @@
+{%extends "layout.html"%} {%block content%}
+
+<div class="adminTransRequest">
+  <h1>Administrator's Transcript Request</h1>
+  <p>Please fill out the form below</p>
+  <form action="/my-Blockchain-handling-form-page" method="get">
+    <div>
+      <label for="student_id">Student Id:</label>
+      <input type="text" id="student_id" ID="">
+    </div>
+    <div>
+      <label for="recipient_id">Recipient Id:</label>
+      <input type="text" id="recipient_id" student_id="">
+    </div>
+    <div class="button">
+      <button type="submit">Submit</button>
+      <button type="submit">Cancel</button>
+    </div>
+    <div>
+    </div>
+    {%endblock%}
